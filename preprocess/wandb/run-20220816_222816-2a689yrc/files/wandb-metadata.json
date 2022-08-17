@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-08-17T02:28:17.843894",
+    "startedAt": "2022-08-17T02:28:16.903195",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Cleaned data"
+    ],
+    "state": "running",
+    "program": "/home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/preprocess/run.py",
+    "codePath": "preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/jledesmau/genre_classification.git",
+        "commit": "96383583efc324de540e2e2c5269649ba19c8f32"
+    },
+    "email": "jledesmau@gmail.com",
+    "root": "/home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification",
+    "host": "LAPTOP-OPH8MA4M",
+    "username": "jledesmau",
+    "executable": "/home/jledesmau/miniconda3/envs/mlflow-aa9da7decfda200705cb931ea7b0eaa40e2544ea/bin/python"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/mlruns/0/b6c72f281eef4ce28dc2d1bfed17cf6a/artifacts
+end_time: 1660703202852
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b6c72f281eef4ce28dc2d1bfed17cf6a
+run_uuid: b6c72f281eef4ce28dc2d1bfed17cf6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1660703186268
+status: 3
+tags: []
+user_id: jledesmau

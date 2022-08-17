@@ -1,0 +1,213 @@
+2022-08-16 22:31:43,662 INFO    StreamThr :17066 [internal.py:wandb_internal():90] W&B internal server running at pid: 17066, started at: 2022-08-16 22:31:43.662187
+2022-08-16 22:31:43,665 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: status
+2022-08-16 22:31:43,667 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: status
+2022-08-16 22:31:43,669 DEBUG   SenderThread:17066 [sender.py:send():302] send: header
+2022-08-16 22:31:43,669 INFO    WriterThread:17066 [datastore.py:open_for_write():75] open: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/run-1usmnm35.wandb
+2022-08-16 22:31:43,669 DEBUG   SenderThread:17066 [sender.py:send():302] send: run
+2022-08-16 22:31:44,198 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: check_version
+2022-08-16 22:31:44,201 INFO    SenderThread:17066 [dir_watcher.py:__init__():216] watching files in: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files
+2022-08-16 22:31:44,201 INFO    SenderThread:17066 [sender.py:_start_run_threads():913] run started: 1usmnm35 with start time 1660703503.658413
+2022-08-16 22:31:44,201 DEBUG   SenderThread:17066 [sender.py:send():302] send: summary
+2022-08-16 22:31:44,202 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-16 22:31:44,202 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: check_version
+2022-08-16 22:31:44,457 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: run_start
+2022-08-16 22:31:44,458 DEBUG   HandlerThread:17066 [meta.py:__init__():35] meta init
+2022-08-16 22:31:44,458 DEBUG   HandlerThread:17066 [meta.py:__init__():50] meta init done
+2022-08-16 22:31:44,458 DEBUG   HandlerThread:17066 [meta.py:probe():216] probe
+2022-08-16 22:31:44,459 DEBUG   HandlerThread:17066 [meta.py:_setup_git():206] setup git
+2022-08-16 22:31:44,465 DEBUG   HandlerThread:17066 [meta.py:_setup_git():213] setup git done
+2022-08-16 22:31:44,465 DEBUG   HandlerThread:17066 [meta.py:_save_pip():54] save pip
+2022-08-16 22:31:44,466 DEBUG   HandlerThread:17066 [meta.py:_save_pip():68] save pip done
+2022-08-16 22:31:44,466 DEBUG   HandlerThread:17066 [meta.py:_save_conda():75] save conda
+2022-08-16 22:31:45,207 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-summary.json
+2022-08-16 22:31:45,207 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/conda-environment.yaml
+2022-08-16 22:31:45,207 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/requirements.txt
+2022-08-16 22:31:47,736 DEBUG   HandlerThread:17066 [meta.py:_save_conda():85] save conda done
+2022-08-16 22:31:47,736 DEBUG   HandlerThread:17066 [meta.py:probe():254] probe done
+2022-08-16 22:31:47,739 DEBUG   SenderThread:17066 [sender.py:send():302] send: files
+2022-08-16 22:31:47,739 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-16 22:31:47,744 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-16 22:31:47,744 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: stop_status
+2022-08-16 22:31:47,974 DEBUG   SenderThread:17066 [sender.py:send():302] send: telemetry
+2022-08-16 22:31:48,204 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/conda-environment.yaml
+2022-08-16 22:31:48,214 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-metadata.json
+2022-08-16 22:31:48,214 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/output.log
+2022-08-16 22:31:48,381 INFO    Thread-16 :17066 [upload_job.py:push():138] Uploaded file /tmp/tmpu4y2duahwandb/1g4t54el-wandb-metadata.json
+2022-08-16 22:31:49,060 DEBUG   SenderThread:17066 [sender.py:send():302] send: config
+2022-08-16 22:31:50,205 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/output.log
+2022-08-16 22:31:52,120 DEBUG   SenderThread:17066 [sender.py:send():302] send: summary
+2022-08-16 22:31:52,122 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-16 22:31:52,205 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-summary.json
+2022-08-16 22:31:52,403 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-16 22:31:52,404 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: log_artifact
+2022-08-16 22:31:54,079 INFO    Thread-18 :17066 [upload_job.py:push():96] Uploaded file /home/jledesmau/.cache/wandb/artifacts/obj/md5/42/9e737a8584922ac7e2401ad10dd39a
+2022-08-16 22:31:54,081 INFO    Thread-20 :17066 [upload_job.py:push():96] Uploaded file /home/jledesmau/.cache/wandb/artifacts/obj/md5/99/0b827317c239cce1734f4caa28ec12
+2022-08-16 22:31:54,095 INFO    Thread-19 :17066 [upload_job.py:push():96] Uploaded file /home/jledesmau/.cache/wandb/artifacts/obj/md5/ad/d1d5fb98723b4fa0649f000bd2539a
+2022-08-16 22:31:54,207 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/output.log
+2022-08-16 22:32:02,987 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-16 22:32:05,320 INFO    Thread-21 :17066 [upload_job.py:push():96] Uploaded file /home/jledesmau/.cache/wandb/artifacts/obj/md5/47/3f5450182b15704a7373a66def1f02
+2022-08-16 22:32:06,363 INFO    SenderThread:17066 [sender.py:send_request_log_artifact():1207] logged artifact model_export - {'id': 'QXJ0aWZhY3Q6MTczOTQzNDc2', 'digest': '98953b5f2bc4cd05fa38f7d2b6bd2f3e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI2MDIwNDU0', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-16 22:32:06,363 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: stop_status
+2022-08-16 22:32:07,927 DEBUG   SenderThread:17066 [sender.py:send():302] send: files
+2022-08-16 22:32:07,927 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file media/images/feature_importance_0_f1fd3194294f7a484f72.png with policy now
+2022-08-16 22:32:07,930 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-16 22:32:07,932 DEBUG   SenderThread:17066 [sender.py:send():302] send: files
+2022-08-16 22:32:07,932 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png with policy now
+2022-08-16 22:32:07,933 DEBUG   SenderThread:17066 [sender.py:send():302] send: history
+2022-08-16 22:32:07,933 DEBUG   SenderThread:17066 [sender.py:send():302] send: summary
+2022-08-16 22:32:07,936 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-16 22:32:07,937 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:07,938 DEBUG   SenderThread:17066 [sender.py:send():302] send: exit
+2022-08-16 22:32:07,938 INFO    SenderThread:17066 [sender.py:send_exit():438] handling exit code: 0
+2022-08-16 22:32:07,938 INFO    SenderThread:17066 [sender.py:send_exit():440] handling runtime: 23
+2022-08-16 22:32:07,938 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-16 22:32:07,938 INFO    SenderThread:17066 [sender.py:send_exit():446] send defer
+2022-08-16 22:32:07,938 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:07,939 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:07,939 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-16 22:32:07,941 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:07,942 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-08-16 22:32:07,942 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 1
+2022-08-16 22:32:07,942 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:07,942 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-16 22:32:07,951 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:07,951 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-08-16 22:32:07,951 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 2
+2022-08-16 22:32:07,952 DEBUG   SenderThread:17066 [sender.py:send():302] send: stats
+2022-08-16 22:32:07,952 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:07,952 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-16 22:32:07,952 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:07,952 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-08-16 22:32:07,952 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 3
+2022-08-16 22:32:07,953 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:07,953 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-16 22:32:07,953 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:07,953 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-08-16 22:32:07,953 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 4
+2022-08-16 22:32:07,953 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:07,953 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-16 22:32:07,953 DEBUG   SenderThread:17066 [sender.py:send():302] send: summary
+2022-08-16 22:32:07,954 INFO    SenderThread:17066 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-16 22:32:07,954 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:07,954 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-08-16 22:32:07,954 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 5
+2022-08-16 22:32:07,954 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:07,954 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-16 22:32:07,954 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:07,954 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-08-16 22:32:08,040 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:08,209 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 6
+2022-08-16 22:32:08,209 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:08,210 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:08,210 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-16 22:32:08,210 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:08,210 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-08-16 22:32:08,214 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/config.yaml
+2022-08-16 22:32:08,215 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-summary.json
+2022-08-16 22:32:08,215 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-08-16 22:32:08,215 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-08-16 22:32:08,215 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/media/images
+2022-08-16 22:32:08,215 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/media
+2022-08-16 22:32:08,311 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:08,595 INFO    Thread-22 :17066 [upload_job.py:push():138] Uploaded file /tmp/tmpu4y2duahwandb/2f28xqnu-media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-08-16 22:32:08,673 INFO    Thread-23 :17066 [upload_job.py:push():138] Uploaded file /tmp/tmpu4y2duahwandb/3hzzcob2-media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-08-16 22:32:09,386 INFO    Thread-24 :17066 [upload_job.py:push():138] Uploaded file /tmp/tmpu4y2duahwandb/34rqfd34-media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-08-16 22:32:10,013 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 7
+2022-08-16 22:32:10,014 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,016 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:10,016 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-16 22:32:10,016 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:10,016 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-08-16 22:32:10,016 INFO    SenderThread:17066 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-08-16 22:32:10,116 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,178 INFO    Thread-25 :17066 [upload_job.py:push():138] Uploaded file /tmp/tmpu4y2duahwandb/322e3k29-media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-08-16 22:32:10,216 INFO    Thread-12 :17066 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/output.log
+2022-08-16 22:32:10,217 INFO    SenderThread:17066 [dir_watcher.py:finish():392] scan: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files
+2022-08-16 22:32:10,218 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/output.log output.log
+2022-08-16 22:32:10,218 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/conda-environment.yaml conda-environment.yaml
+2022-08-16 22:32:10,223 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/config.yaml config.yaml
+2022-08-16 22:32:10,224 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-metadata.json wandb-metadata.json
+2022-08-16 22:32:10,224 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/requirements.txt requirements.txt
+2022-08-16 22:32:10,225 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-summary.json wandb-summary.json
+2022-08-16 22:32:10,225 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-08-16 22:32:10,226 INFO    SenderThread:17066 [dir_watcher.py:finish():406] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/media/images/feature_importance_0_f1fd3194294f7a484f72.png media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-08-16 22:32:10,226 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 8
+2022-08-16 22:32:10,226 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,238 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:10,239 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-16 22:32:10,241 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:10,241 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-08-16 22:32:10,241 INFO    SenderThread:17066 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-16 22:32:10,343 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,344 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,446 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,447 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,550 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,550 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,652 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,652 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,755 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,755 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,857 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,858 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:10,859 INFO    Thread-28 :17066 [upload_job.py:push():138] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/config.yaml
+2022-08-16 22:32:10,880 INFO    Thread-30 :17066 [upload_job.py:push():138] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/wandb-summary.json
+2022-08-16 22:32:10,894 INFO    Thread-27 :17066 [upload_job.py:push():138] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/conda-environment.yaml
+2022-08-16 22:32:10,961 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:10,961 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,063 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,064 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,166 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,167 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,269 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,270 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,372 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,373 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,475 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,475 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,577 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,578 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,669 INFO    Thread-29 :17066 [upload_job.py:push():138] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/requirements.txt
+2022-08-16 22:32:11,681 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,681 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,784 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,785 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,847 INFO    Thread-26 :17066 [upload_job.py:push():138] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/files/output.log
+2022-08-16 22:32:11,887 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,888 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:11,991 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:11,991 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:12,048 INFO    Thread-11 :17066 [sender.py:transition_state():459] send defer: 9
+2022-08-16 22:32:12,049 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:12,050 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-16 22:32:12,050 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:12,050 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-08-16 22:32:12,094 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:12,185 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 10
+2022-08-16 22:32:12,185 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:12,187 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:12,187 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-16 22:32:12,187 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:12,187 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-08-16 22:32:12,188 INFO    SenderThread:17066 [sender.py:transition_state():459] send defer: 11
+2022-08-16 22:32:12,190 DEBUG   SenderThread:17066 [sender.py:send():302] send: final
+2022-08-16 22:32:12,191 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: defer
+2022-08-16 22:32:12,191 INFO    HandlerThread:17066 [handler.py:handle_request_defer():164] handle defer: 11
+2022-08-16 22:32:12,191 DEBUG   SenderThread:17066 [sender.py:send():302] send: footer
+2022-08-16 22:32:12,192 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: defer
+2022-08-16 22:32:12,192 INFO    SenderThread:17066 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-08-16 22:32:12,294 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-16 22:32:12,294 DEBUG   SenderThread:17066 [sender.py:send_request():316] send_request: poll_exit
+2022-08-16 22:32:12,294 INFO    SenderThread:17066 [file_pusher.py:join():176] waiting for file pusher
+2022-08-16 22:32:12,628 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-16 22:32:12,631 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-16 22:32:12,632 INFO    MainThread:17066 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-16 22:32:12,633 INFO    MainThread:17066 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-16 22:32:12,633 INFO    MainThread:17066 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-08-16 22:32:12,634 DEBUG   HandlerThread:17066 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-16 22:32:12,634 INFO    HandlerThread:17066 [handler.py:finish():810] shutting down handler
+2022-08-16 22:32:13,192 INFO    WriterThread:17066 [datastore.py:close():279] close: /home/jledesmau/build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre_classification/random_forest/wandb/run-20220816_223143-1usmnm35/run-1usmnm35.wandb
+2022-08-16 22:32:13,526 INFO    SenderThread:17066 [sender.py:finish():1312] shutting down sender
+2022-08-16 22:32:13,526 INFO    SenderThread:17066 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-16 22:32:13,526 INFO    SenderThread:17066 [file_pusher.py:join():176] waiting for file pusher
+2022-08-16 22:32:13,638 INFO    MainThread:17066 [internal.py:handle_exit():80] Internal process exited
